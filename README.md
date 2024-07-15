@@ -1,6 +1,6 @@
 # ConMamba
 
-An official implementation of convolution-augmented Mamba speech recognition model.
+An official implementation of convolution-augmented Mamba for speech recognition.
 
 [![arXiv](https://img.shields.io/badge/arXiv-<INDEX>-<COLOR>.svg)](https://arxiv.org/abs/<INDEX>)
 
