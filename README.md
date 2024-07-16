@@ -36,7 +36,7 @@ To train a ConMamba Encoder model with a character-level CTC loss on four GPUs:
 torchrun --nproc-per-node 4 train_CTC.py hparams/CTC/conmamba_large.yaml --data_folder <YOUR_PATH_TO_LIBRISPEECH> --precision bf16 
 ```
 
-## Performance
+## Performance (Word Error Rate%)
 <img src="figures/performance.png" alt="performance" width="60%">
 
 ## Acknowledgement
