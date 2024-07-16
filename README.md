@@ -45,7 +45,7 @@ We acknowledge the wonderful work of [Mamba](https://arxiv.org/abs/2312.00752) a
 If you find this work helpful, please consider citing:
 
 ```bibtex
-@article{jiang2024speechslytherin,
+@misc{jiang2024speechslytherin,
       title={Speech Slytherin: Examining the Performance and Efficiency of Mamba for Speech Separation, Recognition, and Synthesis}, 
       author={Xilin Jiang and Yinghao Aaron Li and Adrian Nicolas Florea and Cong Han and Nima Mesgarani},
       year={2024},
