@@ -11,6 +11,9 @@ An official implementation of convolution-augmented Mamba for speech recognition
 
 ## Prerequisites
 
+1. Download LibriSpeech [corpus](https://www.openslr.org/12).
+
+2. Install Packages.
 ```
 conda create --name Slytherin python=3.9
 conda activate Slytherin
