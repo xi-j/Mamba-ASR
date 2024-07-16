@@ -6,8 +6,8 @@ An official implementation of convolution-augmented Mamba for speech recognition
 
 ## Architecture
 
-![architecture](figures/conmamba.png)
-![layers](figures/mamba_encoder_decoder.png)
+<img src="figures/conmamba.png" alt="conmamba" width="80%">
+<img src="figures/mamba_encoder_decoder.png" alt="layers" width="80%">
 
 ## Prerequisites
 
