@@ -26,12 +26,12 @@ data_folder: !PLACEHOLDER
 train_splits: ["train-clean-100", "train-clean-360", "train-other-500"]
 dev_splits: ["dev-clean"]
 test_splits: ["dev-clean", "test-clean", "test-other"]
-skip_prep: True
-train_csv: !ref manifests/train.csv
-valid_csv: !ref manifests/dev-clean.csv
+skip_prep: False
+train_csv: !ref <output_folder>/train.csv
+valid_csv: !ref <output_folder>/dev-clean.csv
 test_csv:
-    - !ref manifests/test-clean.csv
-    - !ref manifests/test-other.csv
+    - !ref <output_folder>/test-clean.csv
+    - !ref <output_folder>/test-other.csv
 
 skip_train: False
 precision: bf16
