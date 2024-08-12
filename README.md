@@ -1,8 +1,6 @@
-# ConMamba
+# ConMamba [![arXiv](https://img.shields.io/badge/arXiv-2407.09732-<COLOR>.svg)](https://arxiv.org/abs/2407.09732)
 
 An official implementation of convolution-augmented Mamba for speech recognition.
-
-[![arXiv](https://img.shields.io/badge/arXiv-<INDEX>-<COLOR>.svg)](https://arxiv.org/abs/<INDEX>)
 
 ## Architecture
 
@@ -36,7 +34,9 @@ To train a ConMamba Encoder model with a character-level CTC loss on four GPUs:
 torchrun --nproc-per-node 4 train_CTC.py hparams/CTC/conmamba_large.yaml --data_folder <YOUR_PATH_TO_LIBRISPEECH> --precision bf16 
 ```
 
-## Performance
+## Inference and Checkpoints (Later)
+
+## Performance (Word Error Rate%)
 <img src="figures/performance.png" alt="performance" width="60%">
 
 ## Acknowledgement
@@ -46,6 +46,17 @@ We acknowledge the wonderful work of [Mamba](https://arxiv.org/abs/2312.00752) a
 ## Citation
 If you find this work helpful, please consider citing:
 
+```bibtex
+@misc{jiang2024speechslytherin,
+      title={Speech Slytherin: Examining the Performance and Efficiency of Mamba for Speech Separation, Recognition, and Synthesis}, 
+      author={Xilin Jiang and Yinghao Aaron Li and Adrian Nicolas Florea and Cong Han and Nima Mesgarani},
+      year={2024},
+      eprint={2407.09732},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2407.09732}, 
+}
+```
 
 You may also like our Mamba for speech separation: https://github.com/xi-j/Mamba-TasNet
 
